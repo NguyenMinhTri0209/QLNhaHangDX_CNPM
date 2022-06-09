@@ -175,6 +175,15 @@ create table NhanVien(
 )
 
 insert into NhanVien values
+(N'Nguyễn Minh Trí',N'Nam',20,N'Khánh Hòa','0912363523','nguyenminhtri','271020',N'Quản lý'),
+(N'Nguyễn Lê Thành Tâm',N'Nam',20,N'Khánh Hòa','0912363523','nguyenlethanhtam','271020',N'Nhân viên'),
+(N'Nguyễn Khánh Duy',N'Nam',20,N'Khánh Hòa','0912363523','nguyenkhanhduy','271020',N'Nhân viên'),
+(N'Nguyễn Diễm Quỳnh',N'Nữ',20,N'Khánh Hòa','09123523','nguyendiemquynh','271020',N'Nhân viên'),
+(N'Nguyễn Quốc Châu',N'Nam',20,N'Khánh Hòa','0912523','nguyenquocchau','271020',N'Nhân viên'),
+(N'Nguyễn Ngọc Thịnh',N'Nam',20,N'Khánh Hòa','0912523','nguyenngocthinh','271020',N'Nhân viên'),
+(N'Đỗ Tuấn Kiệt',N'Nam',20,N'Khánh Hòa','0912523','dotuankiet','271020',N'Nhân viên')
+
+insert into NhanVien values
 (N'Nguyễn Minh Trí',N'Nam',20,N'Khánh Hòa','0912363523','huavanduy','271020',N'Quản lý'),
 (N'Nguyễn Lê Thành Tâm',N'Nam',20,N'Khánh Hòa','0912363523','nguyentiendung','271020',N'Nhân viên'),
 (N'Nguyễn Khánh Duy',N'Nam',20,N'Khánh Hòa','0912363523','account1','271020',N'Nhân viên'),
@@ -182,6 +191,10 @@ insert into NhanVien values
 (N'Nguyễn Quốc Châu',N'Nam',20,N'Khánh Hòa','0912523','account3','271020',N'Nhân viên'),
 (N'Nguyễn Ngọc Thịnh',N'Nam',20,N'Khánh Hòa','0912523','account4','271020',N'Nhân viên'),
 (N'Đỗ Tuấn Kiệt',N'Nam',20,N'Khánh Hòa','0912523','account5','271020',N'Nhân viên')
+
+delete from nhanvien 
+
+
 ----------------BANG HOA DON---------------------------
 create table HoaDon(
 	MaHoaDon int identity(1,1) not null primary key,
