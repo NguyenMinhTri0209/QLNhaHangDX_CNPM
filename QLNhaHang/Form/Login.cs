@@ -78,7 +78,7 @@ namespace QLNhaHang
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("Chưa cài đặt", "Message");
+            MessageBox.Show("Chưa cài đặt", "Message Box");
         }
     }
     
